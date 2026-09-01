@@ -1,4 +1,4 @@
-**<h1 align="center">¡Hola, soy Sebastián! 👋</h1>
+<h1 align="center">¡Hola, soy Sebastián! 👋</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F85757&center=true&vCenter=true&width=600&lines=Tecnólogo+en+Desarrollo+de+Software;Ing.+de+Sistemas+%26+Computación;Experto+en+Desarrollo+con+IA;Backend+%26+Full-Stack+Developer" alt="Typing SVG" />
@@ -8,51 +8,57 @@
 
 ### 💻 Sobre mí
 
-- 🎓 **Formación:** Tecnólogo en Desarrollo de Software y culminando Ingeniería de Sistemas y Computación.
-- 🤖 **Especialidad:** Integración de Inteligencia Artificial en flujos de desarrollo, desarrollo de arquitecturas robustas y automatización de procesos complejos.
-- ⚡ **Enfoque:** Creación de soluciones escalables, optimización de rendimiento y conectividad de sistemas mediante APIs modernas.
+- 🏛️ Actualmente culminando mi **Ingeniería de Sistemas y Computación** tras graduarme como Tecnólogo en Desarrollo de Software. 💻
+- 💬 Me ha encantado la programación y la tecnología desde hace años.
+- 🗣️ **Dato curioso:** Hablo 2 idiomas: **Español e Inglés**.
+- 🤝 Me gusta trabajar en equipo, con gran capacidad para colaborar en grupo o desarrollar de forma individual.
 
 ---
 
-### 🚀 Stack Tecnológico
+### 🛠️ Mis habilidades incluyen
 
+#### 🌐 Lenguajes
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,django,js,html,css,git,vscode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,js,html,css&theme=dark" />
+</p>
+
+#### ⚡ Frameworks, Librerías y Herramientas
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,django,git,vscode&theme=dark" />
+</p>
+
+#### 🗄️ Bases de Datos
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb&theme=dark" />
 </p>
 
 ---
 
-### 🤖 Especialista en IA y Automatización
+### 🤖 Certificaciones e IA
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Prompt%20Engineering-Experto-blue?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/LLM%20Integration-APIs-orange?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Workflows-Automation-success?style=for-the-badge&logo=n8n&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAG%20&%20Vector%20DBs-Active-informational?style=for-the-badge&logo=qdrant&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prompt%20Engineering-Certificado-blue?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLM%20Integration-Especialista-orange?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI%20Automation-Certificado-success?style=for-the-badge&logo=n8n&logoColor=white" />
 </div>
 
-- **Desarrollo con IA:** Implementación avanzada de modelos de lenguaje, flujos RAG, diseño de prompts estructurados y arquitecturas orientadas a agentes inteligentes.
-- **Automatización:** Optimización de tareas repetitivas, integración de APIs de terceros y diseño de pipelines de datos eficientes.
+- **Uso correcto de la IA:** Implementación ética y avanzada de modelos de lenguaje, flujos RAG y automatización de procesos orientados a optimizar el ciclo de desarrollo de software.
 
 ---
 
 ### ⚡ Código & IA en Acción
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Anmol-Baranwal/master/assets/git-code-commit.gif" width="45%" />
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*CsJ05WEGfunYMLGfsT2sXA.gif" width="48%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d88506d50ee.gif" width="45%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ff3-4f9a-a92c-0604f4e3d90e.gif" width="48%" />
 </p>
 
 ---
 
-### 📊 Estadísticas de GitHub
+### 📊 Actividad y Estadísticas
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sebaspuerta&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sebaspuerta&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Sebaspuerta&show_icons=true&theme=react&hide_border=true" />
 </p>
 
 ---
@@ -60,4 +66,3 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
 </p>
-**
