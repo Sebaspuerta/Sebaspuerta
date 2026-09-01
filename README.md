@@ -1,4 +1,4 @@
-<h1 align="center">¡Hola, soy Sebastián! 👋</h1>
+**<h1 align="center">¡Hola, soy Sebastián! 👋</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F85757&center=true&vCenter=true&width=600&lines=Tecnólogo+en+Desarrollo+de+Software;Ing.+de+Sistemas+%26+Computación;Experto+en+Desarrollo+con+IA;Backend+%26+Full-Stack+Developer" alt="Typing SVG" />
@@ -60,3 +60,4 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
 </p>
+**
