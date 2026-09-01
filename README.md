@@ -25,7 +25,7 @@
 ### 🤖 Especialista en IA y Automatización
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Prompt%20Engineering-Expert-blue?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prompt%20Engineering-Experto-blue?style=for-the-badge&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/LLM%20Integration-APIs-orange?style=for-the-badge&logo=anthropic&logoColor=white" />
   <img src="https://img.shields.io/badge/Workflows-Automation-success?style=for-the-badge&logo=n8n&logoColor=white" />
   <img src="https://img.shields.io/badge/RAG%20&%20Vector%20DBs-Active-informational?style=for-the-badge&logo=qdrant&logoColor=white" />
@@ -36,14 +36,27 @@
 
 ---
 
+### ⚡ Zona de Código & Hacker Style
+
+<p align="center">
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="400" />
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" />
+</p>
+
+*(También puedes inspirarte en este concepto visual de desarrollo y ciberseguridad generado para ti):*
+
+
+
+---
+
 ### 📊 Estadísticas de GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO_GITHUB&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Sebaspuerta&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO_GITHUB&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sebaspuerta&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
