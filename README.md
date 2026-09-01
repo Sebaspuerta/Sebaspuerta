@@ -20,6 +20,10 @@ Soy **Tecnólogo en Desarrollo de Software** y estudiante activo de **Ingenierí
 - 🌐 Dominio profesional de **español e inglés**, lo que me permite colaborar en equipos y proyectos internacionales sin fricción.
 - 🤝 Me destaco por el **trabajo en equipo**, la **resolución analítica de problemas** y la capacidad de trabajar de forma **autónoma** cuando el proyecto lo requiere.
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/213760710-201a57d2-95f1-45c7-b910-44faf209d2f8.gif" width="420" alt="Desarrollador programando" />
+</div>
+
 ---
 
 ## 🛠️ Habilidades Técnicas
