@@ -1,7 +1,7 @@
 <h1 align="center">¡Hola, soy Sebastián! 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=F85757&center=true&vCenter=true&width=550&lines=Tecnólogo+en+Desarrollo+de+Software;Ingeniero+de+Sistemas+%26+Computación;Experto+en+Desarrollo+con+IA+y+Automatizaciones;Backend+%26+Full-Stack+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F85757&center=true&vCenter=true&width=600&lines=Tecnólogo+en+Desarrollo+de+Software;Ing.+de+Sistemas+%26+Computación;Experto+en+Desarrollo+con+IA;Backend+%26+Full-Stack+Developer" alt="Typing SVG" />
 </p>
 
 ---
@@ -36,16 +36,12 @@
 
 ---
 
-### ⚡ Zona de Código & Hacker Style
+### ⚡ Código & IA en Acción
 
 <p align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="400" />
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" />
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Anmol-Baranwal/master/assets/git-code-commit.gif" width="45%" />
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*CsJ05WEGfunYMLGfsT2sXA.gif" width="48%" />
 </p>
-
-*(También puedes inspirarte en este concepto visual de desarrollo y ciberseguridad generado para ti):*
-
-
 
 ---
 
