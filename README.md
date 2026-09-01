@@ -1,28 +1,32 @@
 <h1 align="center">¡Hola, soy Sebastián! 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F85757&center=true&vCenter=true&width=600&lines=Tecnólogo+en+Desarrollo+de+Software;Ing.+de+Sistemas+%26+Computación;Experto+en+Desarrollo+con+IA;Backend+%26+Full-Stack+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F85757&center=true&vCenter=true&width=650&lines=Tecnólogo+en+Desarrollo+de+Software;Backend+%26+Full-Stack+Developer;Desarrollo+con+IA+y+Automatizaciones" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=header&text=Código%20&%20Inteligencia%20Artificial&fontSize=20&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 ---
 
 ### 💻 Sobre mí
 
-- 🏛️ Actualmente culminando mi **Ingeniería de Sistemas y Computación** tras graduarme como Tecnólogo en Desarrollo de Software. 💻
-- 💬 Me ha encantado la programación y la tecnología desde hace años.
-- 🗣️ **Dato curioso:** Hablo 2 idiomas: **Español e Inglés**.
-- 🤝 Me gusta trabajar en equipo, con gran capacidad para colaborar en grupo o desarrollar de forma individual.
+- 🏛️ **Tecnólogo en Desarrollo de Software** y culminando Ingeniería de Sistemas y Computación.
+- 💻 Apasionado por la creación de software robusto, el diseño de APIs y la integración de tecnologías modernas.
+- 🗣️ **Idiomas:** Español e Inglés.
+- 🤝 Trabajo en equipo y enfoque analítico para la resolución de problemas.
 
 ---
 
-### 🛠️ Mis habilidades incluyen
+### 🛠️ Mis habilidades
 
 #### 🌐 Lenguajes
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,js,html,css&theme=dark" />
 </p>
 
-#### ⚡ Frameworks, Librerías y Herramientas
+#### ⚡ Frameworks y Herramientas
 <p align="left">
   <img src="https://skillicons.dev/icons?i=fastapi,flask,django,git,vscode&theme=dark" />
 </p>
@@ -34,7 +38,7 @@
 
 ---
 
-### 🤖 Certificaciones e IA
+### 🤖 Certificaciones e Inteligencia Artificial
 
 <div align="center">
   <img src="https://img.shields.io/badge/Prompt%20Engineering-Certificado-blue?style=for-the-badge&logo=openai&logoColor=white" />
@@ -42,15 +46,14 @@
   <img src="https://img.shields.io/badge/AI%20Automation-Certificado-success?style=for-the-badge&logo=n8n&logoColor=white" />
 </div>
 
-- **Uso correcto de la IA:** Implementación ética y avanzada de modelos de lenguaje, flujos RAG y automatización de procesos orientados a optimizar el ciclo de desarrollo de software.
+- **Uso correcto de la IA:** Implementación avanzada y ética de modelos de lenguaje, flujos RAG y automatización para optimizar el desarrollo de software.
 
 ---
 
-### ⚡ Código & IA en Acción
+### ⚡ Programación en Acción
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d88506d50ee.gif" width="45%" />
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ff3-4f9a-a92c-0604f4e3d90e.gif" width="48%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d88506d50ee.gif" width="600" />
 </p>
 
 ---
