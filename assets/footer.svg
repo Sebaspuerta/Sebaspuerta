@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070B16"/><stop offset=".6" stop-color="#0C1428"/><stop offset="1" stop-color="#12203F"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" x2="1">
+    <stop offset="0" stop-color="#9C7A36"/><stop offset=".5" stop-color="#F1D9A0"/><stop offset="1" stop-color="#9C7A36"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" x2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#C9A45C" stroke-opacity=".06"/>
+  </pattern>
+  <clipPath id="clip"><rect width="1200" height="150" rx="18"/></clipPath>
+</defs>
+<style>
+  .fade{opacity:0;animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .sheen{animation:sweep 8s ease-in-out infinite}
+  @keyframes sweep{0%{transform:translateX(0)}55%,100%{transform:translateX(2200px)}}
+  .grid{animation:drift 22s linear infinite}
+  @keyframes drift{to{transform:translate(40px,40px)}}
+  .tw{animation:tw 3.2s ease-in-out infinite}
+  @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+  .pulse{animation:pulse 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.6)}}
+
+  .w1{animation:wave 10s linear infinite}.w2{animation:wave 14s linear infinite reverse}
+  @keyframes wave{to{transform:translateX(-200px)}}
+</style>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="150" fill="url(#bg)"/>
+  <rect class="grid" x="-40" y="-40" width="1280" height="230" fill="url(#grid)"/>
+  <rect class="sheen" x="-500" y="0" width="500" height="150" fill="url(#sheen)"/>
+
+  <g transform="translate(0 118)"><path class="w1" d="M-200 0 q50 -14 100 0 t100 0 q50 -14 100 0 t100 0 q50 -14 100 0 t100 0 q50 -14 100 0 t100 0 q50 -14 100 0 t100 0 q50 -14 100 0 t100 0 q50 -14 100 0 t100 0 q50 -14 100 0 t100 0" fill="none" stroke="#C9A45C" stroke-opacity=".35" stroke-width="1.5"/></g>
+  <g transform="translate(0 128)"><path class="w2" d="M-200 0 q50 -14 100 0 t100 0 q50 -14 100 0 t100 0 q50 -14 100 0 t100 0 q50 -14 100 0 t100 0 q50 -14 100 0 t100 0 q50 -14 100 0 t100 0 q50 -14 100 0 t100 0 q50 -14 100 0 t100 0" fill="none" stroke="#C9A45C" stroke-opacity=".18" stroke-width="1.5"/></g>
+  <text class="fade" x="600" y="62" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#F5F3EE">Software sólido, bien diseñado y listo para producción.</text>
+  <text class="fade" style="animation-delay:.3s" x="600" y="92" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" letter-spacing="4" fill="url(#gold)">SEBASTIÁN PUERTA · FULL-STACK DEVELOPER</text>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="148.5" rx="18" fill="none" stroke="url(#gold)" stroke-opacity=".55" stroke-width="1.5"/>
+</svg>

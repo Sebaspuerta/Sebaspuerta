@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070B16"/><stop offset=".6" stop-color="#0C1428"/><stop offset="1" stop-color="#12203F"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" x2="1">
+    <stop offset="0" stop-color="#9C7A36"/><stop offset=".5" stop-color="#F1D9A0"/><stop offset="1" stop-color="#9C7A36"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" x2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#C9A45C" stroke-opacity=".06"/>
+  </pattern>
+  <clipPath id="clip"><rect width="1200" height="340" rx="18"/></clipPath>
+</defs>
+<style>
+  .fade{opacity:0;animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .sheen{animation:sweep 8s ease-in-out infinite}
+  @keyframes sweep{0%{transform:translateX(0)}55%,100%{transform:translateX(2200px)}}
+  .grid{animation:drift 22s linear infinite}
+  @keyframes drift{to{transform:translate(40px,40px)}}
+  .tw{animation:tw 3.2s ease-in-out infinite}
+  @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+  .pulse{animation:pulse 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.6)}}
+
+  .ring{transform-origin:170px 170px;animation:spin 26s linear infinite}
+  .ring2{transform-origin:170px 170px;animation:spin 40s linear infinite reverse}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .draw{stroke-dasharray:820;stroke-dashoffset:820;animation:draw 1.8s 1s cubic-bezier(.4,0,.2,1) forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+</style>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect class="grid" x="-40" y="-40" width="1280" height="420" fill="url(#grid)"/>
+  <rect class="sheen" x="-500" y="0" width="500" height="340" fill="url(#sheen)"/>
+
+  <circle class="tw" cx="1020" cy="70" r="1.6" fill="#F1D9A0" style="animation-delay:0s"/>
+  <circle class="tw" cx="1110" cy="120" r="1.2" fill="#F1D9A0" style="animation-delay:0.8s"/>
+  <circle class="tw" cx="940" cy="280" r="1.4" fill="#F1D9A0" style="animation-delay:1.6s"/>
+  <circle class="tw" cx="1150" cy="250" r="1.8" fill="#F1D9A0" style="animation-delay:0.4s"/>
+  <circle class="tw" cx="640" cy="40" r="1.2" fill="#F1D9A0" style="animation-delay:2.2s"/>
+  <circle class="tw" cx="80" cy="300" r="1.4" fill="#F1D9A0" style="animation-delay:1.2s"/>
+  <circle class="tw" cx="560" cy="300" r="1.1" fill="#F1D9A0" style="animation-delay:2.8s"/>
+  <!-- monograma -->
+  <circle cx="170" cy="170" r="104" fill="none" stroke="#C9A45C" stroke-opacity=".18"/>
+  <circle class="ring" cx="170" cy="170" r="92" fill="none" stroke="url(#gold)" stroke-width="1.5" stroke-dasharray="4 10"/>
+  <circle class="ring2" cx="170" cy="170" r="116" fill="none" stroke="#C9A45C" stroke-opacity=".35" stroke-dasharray="60 300"/>
+  <circle cx="170" cy="170" r="76" fill="#070B16" stroke="url(#gold)" stroke-width="2"/>
+  <text x="170" y="192" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="62" fill="url(#gold)" letter-spacing="2">SP</text>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text class="fade" style="animation-delay:0.10s" x="320" y="96" font-size="13" letter-spacing="6" fill="#C9A45C">PERFIL EJECUTIVO · DESARROLLO DE SOFTWARE</text>
+    <text class="fade" style="animation-delay:0.28s" x="320" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#F5F3EE">Sebastián Enrique Puerta Fernández</text>
+    <text class="fade" style="animation-delay:0.46s" x="320" y="196" font-size="27" font-weight="600" fill="url(#gold)">Full-Stack Developer</text>
+    <text class="fade" style="animation-delay:0.46s" x="624" y="196" font-size="18" fill="#8E98AC">·  IA aplicada al desarrollo</text>
+    <line class="draw" x1="320" y1="222" x2="1140" y2="222" stroke="#C9A45C" stroke-width="1.5"/>
+    <text class="fade" style="animation-delay:0.82s" x="320" y="258" font-size="16" fill="#F5F3EE" fill-opacity=".85">Python · Django · Flask · FastAPI · JavaScript · SQL · AWS</text>
+    <text class="fade" style="animation-delay:1.00s" x="320" y="290" font-size="14" fill="#8E98AC">Tecnólogo en Desarrollo de Software  ·  Ingeniería de Sistemas y Computación</text>
+    <text class="fade" style="animation-delay:0.64s" x="1150" y="60" text-anchor="end" font-size="12" letter-spacing="4" fill="#8E98AC">CARTAGENA DE INDIAS · COLOMBIA</text>
+  </g>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="338.5" rx="18" fill="none" stroke="url(#gold)" stroke-opacity=".55" stroke-width="1.5"/>
+</svg>

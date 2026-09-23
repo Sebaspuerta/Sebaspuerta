@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070B16"/><stop offset=".6" stop-color="#0C1428"/><stop offset="1" stop-color="#12203F"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" x2="1">
+    <stop offset="0" stop-color="#9C7A36"/><stop offset=".5" stop-color="#F1D9A0"/><stop offset="1" stop-color="#9C7A36"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" x2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#C9A45C" stroke-opacity=".06"/>
+  </pattern></defs>
+<style>
+  .fade{opacity:0;animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .sheen{animation:sweep 8s ease-in-out infinite}
+  @keyframes sweep{0%{transform:translateX(0)}55%,100%{transform:translateX(2200px)}}
+  .grid{animation:drift 22s linear infinite}
+  @keyframes drift{to{transform:translate(40px,40px)}}
+  .tw{animation:tw 3.2s ease-in-out infinite}
+  @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+  .pulse{animation:pulse 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.6)}}
+
+  .ln{stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 1.6s .3s ease-out forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  .dot{animation:run 5s 1.8s ease-in-out infinite;opacity:0}
+  @keyframes run{0%{transform:translateX(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(922px);opacity:0}}
+</style>
+<text class="fade" x="10" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="url(#gold)">01</text>
+<text class="fade" style="animation-delay:.15s" x="96" y="41" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="5" fill="#8E98AC">SOBRE MÍ</text>
+<line class="ln" x1="258" y1="34" x2="1190" y2="34" stroke="#C9A45C" stroke-width="1.2" stroke-opacity=".8"/>
+<circle class="dot" cx="258" cy="34" r="3.5" fill="#F1D9A0"/>
+</svg>

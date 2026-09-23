@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070B16"/><stop offset=".6" stop-color="#0C1428"/><stop offset="1" stop-color="#12203F"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" x2="1">
+    <stop offset="0" stop-color="#9C7A36"/><stop offset=".5" stop-color="#F1D9A0"/><stop offset="1" stop-color="#9C7A36"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" x2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#C9A45C" stroke-opacity=".06"/>
+  </pattern>
+  <clipPath id="clip"><rect width="1200" height="280" rx="18"/></clipPath>
+</defs>
+<style>
+  .fade{opacity:0;animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .sheen{animation:sweep 8s ease-in-out infinite}
+  @keyframes sweep{0%{transform:translateX(0)}55%,100%{transform:translateX(2200px)}}
+  .grid{animation:drift 22s linear infinite}
+  @keyframes drift{to{transform:translate(40px,40px)}}
+  .tw{animation:tw 3.2s ease-in-out infinite}
+  @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+  .pulse{animation:pulse 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.6)}}
+
+  .waves{animation:wave 6s linear infinite}
+  .waves2{animation:wave 9s linear infinite reverse}
+  @keyframes wave{to{transform:translateX(-120px)}}
+  .ship{animation:bob 4s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-5px) rotate(-1deg)}}
+  .radar{transform-origin:520px 140px;animation:spin 4s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+</style>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect class="grid" x="-40" y="-40" width="1280" height="360" fill="url(#grid)"/>
+  <rect class="sheen" x="-500" y="0" width="500" height="280" fill="url(#sheen)"/>
+
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B3564"/><stop offset="1" stop-color="#070B16"/></linearGradient>
+    <linearGradient id="sweepg" x1="0" x2="1"><stop offset="0" stop-color="#C9A45C" stop-opacity="0"/><stop offset="1" stop-color="#C9A45C" stop-opacity=".45"/></linearGradient>
+    <clipPath id="scene"><rect x="24" y="24" width="580" height="232" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#scene)">
+    <rect x="24" y="24" width="580" height="232" fill="#0A1224"/>
+    <!-- radar -->
+    <g opacity=".7">
+      <circle cx="520" cy="140" r="30" fill="none" stroke="#C9A45C" stroke-opacity=".3"/>
+      <circle cx="520" cy="140" r="60" fill="none" stroke="#C9A45C" stroke-opacity=".2"/>
+      <circle cx="520" cy="140" r="90" fill="none" stroke="#C9A45C" stroke-opacity=".12"/>
+      <path class="radar" d="M520 140 L610 140 A90 90 0 0 0 583.6 76.4 Z" fill="url(#sweepg)"/>
+      <circle class="pulse" cx="560" cy="110" r="3" fill="#F1D9A0"/>
+    </g>
+    <!-- buque genérico -->
+    <g class="ship" style="transform-origin:230px 190px">
+      <path d="M110 176 L350 176 L330 204 L132 204 Z" fill="#DDE3EC"/>
+      <path d="M110 176 L350 176 L346 182 L114 182 Z" fill="#C9A45C"/>
+      <rect x="180" y="150" width="110" height="26" rx="2" fill="#C9D1DE"/>
+      <rect x="205" y="128" width="62" height="22" rx="2" fill="#B7C1D1"/>
+      <rect x="226" y="104" width="4" height="24" fill="#B7C1D1"/>
+      <rect x="214" y="110" width="28" height="3" fill="#B7C1D1"/>
+      <g fill="#0C1428"><rect x="192" y="158" width="12" height="7"/><rect x="212" y="158" width="12" height="7"/><rect x="232" y="158" width="12" height="7"/><rect x="252" y="158" width="12" height="7"/><rect x="216" y="134" width="40" height="6"/></g>
+    </g>
+    <g transform="translate(0 200)"><path class="waves" d="M-120 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0" fill="none" stroke="#3E6AB0" stroke-width="2" opacity=".8"/></g>
+    <g transform="translate(0 208)"><path class="waves2" d="M-120 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 q30 -10 60 0 t60 0 V60 H-120 Z" fill="url(#sea)" opacity=".95"/></g>
+  </g>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text class="fade" style="animation-delay:0.10s" x="640" y="62" font-size="12" letter-spacing="5" fill="#C9A45C">EXPERIENCIA · PRÁCTICAS PROFESIONALES</text>
+    <text class="fade" style="animation-delay:0.28s" x="640" y="102" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#F5F3EE">COTECMAR</text>
+    <text class="fade" style="animation-delay:0.46s" x="640" y="128" font-size="13" fill="#8E98AC">Corporación de Ciencia y Tecnología para el Desarrollo</text>
+    <text class="fade" style="animation-delay:0.46s" x="640" y="146" font-size="13" fill="#8E98AC">de la Industria Naval, Marítima y Fluvial · Cartagena</text>
+    <g class="fade" style="animation-delay:0.64s"><circle cx="646" cy="182" r="3" fill="#C9A45C"/><text x="660" y="187" font-size="16" fill="#F5F3EE">Soporte técnico del software de gestión naval</text></g>
+    <g class="fade" style="animation-delay:0.82s"><circle cx="646" cy="210" r="3" fill="#C9A45C"/><text x="660" y="215" font-size="16" fill="#F5F3EE">Desarrollo de mejoras y nuevas funcionalidades</text></g>
+    <g class="fade" style="animation-delay:1.00s"><circle cx="646" cy="238" r="3" fill="#C9A45C"/><text x="660" y="243" font-size="16" fill="#F5F3EE">Atención a usuarios y documentación técnica</text></g>
+  </g>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="278.5" rx="18" fill="none" stroke="url(#gold)" stroke-opacity=".55" stroke-width="1.5"/>
+</svg>
